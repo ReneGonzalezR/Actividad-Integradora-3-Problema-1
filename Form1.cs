@@ -70,5 +70,29 @@ namespace Actividad_Integradora_3_Problema_1
             txtSueldo.Text = string.Empty;
             txtNombre.Focus();
         }
+
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                txtArea.Focus();
+            }    
+        }
+
+        private void txtArea_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                txtSueldo.Focus();
+            }
+        }
+
+        private void txtSueldo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                btnAgregar.Focus();
+            }
+        }
     }
 }

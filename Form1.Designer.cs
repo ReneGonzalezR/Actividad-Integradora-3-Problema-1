@@ -90,6 +90,7 @@ namespace Actividad_Integradora_3_Problema_1
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(250, 47);
             this.txtNombre.TabIndex = 4;
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // txtArea
             // 
@@ -97,6 +98,7 @@ namespace Actividad_Integradora_3_Problema_1
             this.txtArea.Name = "txtArea";
             this.txtArea.Size = new System.Drawing.Size(250, 47);
             this.txtArea.TabIndex = 5;
+            this.txtArea.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtArea_KeyPress);
             // 
             // txtSueldo
             // 
@@ -104,6 +106,7 @@ namespace Actividad_Integradora_3_Problema_1
             this.txtSueldo.Name = "txtSueldo";
             this.txtSueldo.Size = new System.Drawing.Size(250, 47);
             this.txtSueldo.TabIndex = 6;
+            this.txtSueldo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSueldo_KeyPress);
             // 
             // dgvEmpleados
             // 
